@@ -11,11 +11,10 @@ textdomain="control"
     <texts>
       <minimal_desktop_host_role>
         <!-- TRANSLATORS: a label for a system role -->
-        <label>Minimal Desktop / IceWM</label>
+        <label>IceWM Desktop (Minimal)</label>
       </minimal_desktop_host_role>
       <minimal_desktop_host_role_description>
-        <label>• Minimal desktop environment, with Btrfs root (/) partition
-• Separate /home partition (XFS) for disks larger than 20GB</label>
+        <label>Lightweight Desktop environment</label>
       </minimal_desktop_host_role_description>
     </texts>
 
@@ -27,10 +26,7 @@ textdomain="control"
             <system_roles config:type="list">
               <system_role>
                 <id>minimal_desktop_host_role</id>
-                <order config:type="integer">3000</order>
-                <partitioning>
-                  <try_separate_home config:type="boolean">false</try_separate_home>
-                </partitioning>
+                <order config:type="integer">4000</order>
                 <software>
                   <default_patterns>base enhanced_base yast2_basis x11_yast x11</default_patterns>
                   <optional_default_patterns><![CDATA[]]></optional_default_patterns>
