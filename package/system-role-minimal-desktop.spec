@@ -36,7 +36,7 @@ BuildRequires:  yast2-installation-control >= 4.0.0
 
 Url:            https://github.com/yast/system-role-minimal-desktop
 AutoReqProv:    off
-Version:        15.1.1
+Version:        15.4.0
 Release:        0
 Summary:        Minimal desktop role definition
 License:        MIT
